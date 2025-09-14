@@ -113,5 +113,6 @@ dependencies {
     // Debug Tools
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    testImplementation(kotlin("test"))
 
 }
