@@ -42,6 +42,7 @@ kotlinx-coroutines-test = "1.10.2"
 truth = "1.4.5"
 arch-core-testing = "2.2.0"
 hilt-android-testing = "2.57.1"
+navigation-testing = "2.7.4"
 
 [libraries]
 # Core Android
@@ -91,6 +92,7 @@ kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-cor
 truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
 androidx-arch-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "arch-core-testing" }
 hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt-android-testing" }
+navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "navigation-testing" }
 
 # Debug Tools
 androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
