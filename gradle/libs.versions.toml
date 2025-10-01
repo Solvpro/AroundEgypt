@@ -1,9 +1,9 @@
 [versions]
 # Core Android
-agp = "8.11.2"
+agp = "8.13.0"
 kotlin = "2.2.20"
 core-ktx = "1.17.0"
-lifecycle-runtime-ktx = "2.9.3"
+lifecycle-runtime-ktx = "2.9.4"
 activity-compose = "1.11.0"
 
 # Compose
@@ -11,7 +11,7 @@ compose-bom = "2025.09.00"
 compose-compiler = "1.5.7"
 
 # Architecture Components
-lifecycle-viewmodel-compose = "2.9.3"
+lifecycle-viewmodel-compose = "2.9.4"
 navigation-compose = "2.9.4"
 
 # Room
@@ -42,7 +42,8 @@ kotlinx-coroutines-test = "1.10.2"
 truth = "1.4.5"
 arch-core-testing = "2.2.0"
 hilt-android-testing = "2.57.1"
-navigation-testing = "2.7.4"
+navigation-testing = "2.9.4"
+ksp = "2.2.0-2.0.2"
 
 [libraries]
 # Core Android
@@ -106,3 +107,4 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt-android" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+kotlin-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
